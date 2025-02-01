@@ -4,6 +4,8 @@ Operators are symbols that tell the compiler to perform specific operations on o
 Expressions are combinations of operators and operands that the compiler evaluates to produce another value.
 Example of an Expression:
 
+c
+Copy
 int result = (a + b) * c;
 Here, + and * are operators, and a, b, and c are operands. The entire (a + b) * c is an expression.
 
@@ -32,6 +34,9 @@ Operator	Description	Example
 /	Division	a / b
 %	Modulus (Remainder after division)	a % b
 Example:
+
+c
+Copy
 
 #include <stdio.h>
 int main() {
@@ -556,5 +561,3 @@ Here’s a simplified operator precedence table (from highest to lowest). Operat
 **Tips:**
 - Use parentheses `()` to explicitly define the order of operations and improve code readability.
 - When in doubt, consult the operator precedence table or use parentheses to avoid ambiguity.
-
----
