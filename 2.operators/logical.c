@@ -6,3 +6,4 @@ int main () {
     printf("OR (a == c) || (a > b)%d\n", (a == c) && (a > b));
     printf("%d\n", !(a == b));
 }
+
